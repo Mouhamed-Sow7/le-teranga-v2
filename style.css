@@ -1,0 +1,36 @@
+/* ===============
+=== SUGESTIONS ===
+================*/
+.navbar{
+  background: #9f1b32 !important;
+}
+.img-fluid{
+  width: 50% !important;
+}
+.nav-link {
+    color: #fff !important;
+}
+.hero-section {
+  position: relative;
+  background-image: url(./assets/img/bg-img.jpg) !important;
+  color: white;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: calc(98vh - 7vh);
+}
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  filter: blur(5px); 
+  z-index: 0;
+}
+.hero-section .container {
+  position: relative;
+  z-index: 1; 
+}
