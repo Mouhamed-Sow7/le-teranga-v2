@@ -81,13 +81,18 @@
     <!--la partie de reservation  -->
     <section class="reservation">
       <div class="container">
+        <!-- titre -->
         <h1>RESERVATION</h1>
         <p>
           Une experience culinaire inoubliable inspiré des traditions locales .
           Nous proposons de repas tres delicieux . Une fois gouter votre appetie
           sera insatiable
         </p>
-        <div class="row box-reservation">
+        <!-- titre -->
+        <!-- _________________________________ -->
+        <!-- une ligne -->
+        <form class="row box-reservation">
+          <!-- colonne 1 de cette row/ligne -->
           <div class="col col-md-4 col-xl-4 left-box">
             <img
               src="assets/img/reservation-img.png"
@@ -95,7 +100,11 @@
               alt=""
             />
           </div>
+          <!-- fin de la colonne 1 -->
+          <!--  -->
+          <!-- colonne 2 imbriquant 3 lignes/row.... -->
           <div class="col col-md-8 col-lg-8 right-box">
+            <!-- premiere row -->
             <div class="row mb-3 col">
               <div class="col col-md col-lg me-2">
                 <input
@@ -111,6 +120,9 @@
                   class="form-control form-control-lg"
                 />
               </div>
+              <!-- fin du premier row -->
+              <!--  -->
+              <!-- second row -->
             </div>
             <div class="row mb-3">
               <div class="col col-md col-lg me-2">
@@ -147,6 +159,9 @@
                 </select>
               </div>
             </div>
+            <!-- fin du second -->
+            <!--  -->
+            <!-- troisieme row -->
             <div class="row mb-3">
               <div class="col col-md col-lg me-2">
                 <input
@@ -158,12 +173,16 @@
               <div class="col col-md col-lg">
                 <input type="time" class="form-control form-control-lg" />
               </div>
+              <!--  -->
             </div>
+            <!-- fin troisieme row -->
+            <!-- button -->
             <div class="d-grid col-5 mt-5 offset-md-3 mx-auto">
               <button class="btn-reservation" type="button">RESERVER</button>
             </div>
+            <!-- fin button -->
           </div>
-        </div>
+        </form>
       </div>
     </section>
     <script
