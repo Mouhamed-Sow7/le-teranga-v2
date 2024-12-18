@@ -1,36 +1,91 @@
 /* ===============
 === SUGESTIONS ===
 ================*/
-.navbar{
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.navbar-nav > li {
+  gap: 50px;
+}
+
+.navbar {
   background: #9f1b32 !important;
 }
-.img-fluid{
-  width: 50% !important;
+
+.logo-img {
+  width: 65%;
 }
 .nav-link {
-    color: #fff !important;
+  color: #fff !important;
 }
 .hero-section {
   position: relative;
   background-image: url(./assets/img/bg-img.jpg) !important;
   color: white;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); 
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(98vh - 7vh);
 }
 .hero-section::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); 
-  filter: blur(5px); 
+  background: rgba(0, 0, 0, 0.5);
+  filter: blur(5px);
   z-index: 0;
 }
 .hero-section .container {
   position: relative;
-  z-index: 1; 
+  z-index: 1;
+}
+/* section de reservation */
+.reservation h1 {
+  color: #9f1b32;
+  font-size: 95px;
+  text-align: center;
+  letter-spacing: 6%;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.reservation p {
+  font-family: "Lora", sans-serif;
+  font-size: 20px;
+  letter-spacing: 6%;
+  text-align: center;
+  font-weight: 600;
+}
+.btn-reservation {
+  background-color: #9f1b32;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  border: none;
+  margin-bottom: 30px;
+}
+.btn-reservation:hover {
+  background-color: #741827;
+}
+.right-box input::placeholder {
+  color: #957979;
+}
+.right-box input,
+.right-box input:focus {
+  outline: #957979;
+}
+
+.right-box select {
+  color: #957979;
+}
+.text-color,
+.text-color:focus {
+  color: #957979;
+}
+.box-reservation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

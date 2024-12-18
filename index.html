@@ -1,80 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-    crossorigin="anonymous"
-  />
-  <link rel="stylesheet" href="./style.css">
-  <title>Le Téranga</title>
-</head>
-<body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-md">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="assets/img/LOGO-teranga.png" alt="Logo Le Téranga" class="img-fluid" />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto text-white">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Offres spéciales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Témoignages Clients</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Réservation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Galerie</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Le Téranga</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/img/LOGO-teranga.png"
+            alt="Logo Le Téranga"
+            class="img-fluid logo-img"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-white">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Offres spéciales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Témoignages Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Réservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galerie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
- 
-  <!-- Hero Section -->
-  <section class="py-5 text-center d-flex align-items-center hero-section">
-    <div class="container">
-      <h1 class="display-1">Le Téranga Resto</h1>
-      <p class="lead">Là où goût et tradition sont à la rencontre</p>
-      <div class="divider"></div>
-      <div class="mt-4">
-        <a href="#" class="btn btn-primary btn-lg me-2">Réserver <i class="bi bi-arrow-right-circle"></i></a>
-        <a href="#" class="btn btn-secondary btn-lg">Commander <i class="bi bi-arrow-right-circle"></i></a>
-      </div>
-    </div>
-  </section>
+    </nav>
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
-</body>
+    <!-- Hero Section -->
+    <section class="py-5 text-center d-flex align-items-center hero-section">
+      <div class="container">
+        <h1 class="display-1">Le Téranga Resto</h1>
+        <p class="lead">Là où goût et tradition sont à la rencontre</p>
+        <div class="divider"></div>
+        <div class="mt-4">
+          <a href="#" class="btn btn-primary btn-lg me-2"
+            >Réserver <i class="bi bi-arrow-right-circle"></i
+          ></a>
+          <a href="#" class="btn btn-secondary btn-lg"
+            >Commander <i class="bi bi-arrow-right-circle"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="reservation">
+      <div class="container">
+        <h1>RESERVATION</h1>
+        <p>
+          Une experience culinaire inoubliable inspiré des traditions locales .
+          Nous proposons de repas tres delicieux . Une fois gouter votre appetie
+          sera insatiable
+        </p>
+        <div class="row box-reservation">
+          <div class="col col-md-4 col-xl-4 left-box">
+            <img
+              src="assets/img/reservation-img.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col col-md-8 col-lg-8 right-box">
+            <div class="row mb-3 col">
+              <div class="col col-md col-lg me-2">
+                <input
+                  type="text"
+                  placeholder="Nom et Prenom "
+                  class="form-control form-control-lg"
+                />
+              </div>
+              <div class="col col-md col-lg">
+                <input
+                  type="email"
+                  placeholder="Adresse Email"
+                  class="form-control form-control-lg"
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col col-md col-lg me-2">
+                <input
+                  type="tel"
+                  placeholder="Telephone"
+                  class="form-control form-control-lg"
+                />
+              </div>
+              <div class="col col-md col-lg">
+                <select name="select" id="#" class="form-select form-select-lg">
+                  <option
+                    selected
+                    value="1"
+                    aria-placeholder="nombre de personne"
+                  >
+                    nombre
+                  </option>
+                  <option value="1" aria-placeholder="nombre de personne">
+                    une personne
+                  </option>
+                  <option value="2" aria-placeholder="nombre de personne">
+                    deux personne
+                  </option>
+                  <option value="3" aria-placeholder="nombre de personne">
+                    trois personnes
+                  </option>
+                  <option value="4" aria-placeholder="nombre de personne">
+                    4 personnes
+                  </option>
+                  <option value="4+" aria-placeholder="nombre de personne">
+                    4+
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col col-md col-lg me-2">
+                <input
+                  type="date"
+                  placeholder="jj/mm/annee"
+                  class="form-control form-control-lg text-color"
+                />
+              </div>
+              <div class="col col-md col-lg">
+                <input type="time" class="form-control form-control-lg" />
+              </div>
+            </div>
+            <div class="d-grid col-5 mt-5 offset-md-3 mx-auto">
+              <button class="btn-reservation" type="button">RESERVER</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
